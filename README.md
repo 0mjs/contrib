@@ -32,9 +32,11 @@ api := app.Group("/api", jwtauth.New(jwtauth.Config{
 
 See the [JWT docs](https://zinc.carbonsoft.sh/middleware/jwtauth/) for configuration.
 
-## Status
+## Versions
 
-These packages target Zinc 0.4, which is not tagged yet. Until it is, each module builds against a sibling checkout of Zinc (`replace github.com/0mjs/zinc => ../../zinc`), so clone both repositories into the same directory to work on them.
+| Package | Latest | Requires |
+|---|---|---|
+| `jwtauth` | `jwtauth/v0.1.0` | Zinc v0.4.0 or later |
 
 ## License
 
